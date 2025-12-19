@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ফ্রি ফায়ার ডায়মন্ড টপআপ গাইড</title>
+    <style>
+        /* Tiro Bangla Font Import */
+        @import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap');
+
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #f8f9fa;
+            --text-color: #343a40;
+            --light-text-color: #6c757d;
+            --border-color: #dee2e6;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --telegram-blue: #0088cc;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tiro Bangla', serif; /* Font changed to Tiro Bangla */
+            background-color: #e9ecef;
+            color: var(--text-color);
+            line-height: 1.7;
+            padding: 20px;
+        }
+
+        /* Image Slider Styles */
+        .slider-container {
+            max-width: 800px;
+            margin: 20px auto;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+        }
+
+        /* 16:9 Aspect Ratio */
+        .slider-container::before {
+            content: "";
+            display: block;
+            padding-top: 56.25%; /* 9 / 16 * 100 */
+        }
+
+        .slider-track {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300%;
+            height: 100%;
+            animation: slideShow 12s infinite;
+        }
+
+        .slider-track img {
+            width: 33.333%;
+            height: 100%;
+            object-fit: cover;
+            float: left;
+        }
+
+        @keyframes slideShow {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(0); }
+            33.01% { transform: translateX(-33.333%); }
+            66% { transform: translateX(-33.333%); }
+            66.01% { transform: translateX(-66.666%); }
+            100% { transform: translateX(-66.666%); }
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 40px 50px;
+            border-radius: 1px;
+            box-shadow: var(--shadow);
+            border-top: 5px solid var(--primary-color);
+        }
+
+        /* CTA Button Styles */
+        .cta-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--telegram-blue);
+            color: #ffffff;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 2px 10px rgba(0, 136, 204, 0.4);
+        }
+
+        .cta-button:hover {
+            background-color: #0077b3;
+            transform: translateY(-2px);
+        }
+
+        h1, h2, h3 {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 40px;
+            padding-left: 15px;
+            border-left: 5px solid var(--primary-color);
+        }
+
+        h3 {
+            font-size: 1.3rem;
+            margin-top: 25px;
+            color: #343a40;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+        }
+
+        ul {
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+        
+        strong {
+            color: var(--primary-color);
+        }
+
+        .conclusion-box {
+            background-color: var(--secondary-color);
+            border: 1px solid var(--border-color);
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        
+        .conclusion-box h3 {
+            margin-top: 0;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Image Slider Section -->
+    <div class="slider-container">
+        <div class="slider-track">
+            <!-- 
+                এখানে আপনার ছবির URL দিন। 
+                src="..." এর ভেতরের লিংকটি মুছে আপনার ছবির লিংক বসিয়ে দিন।
+            -->
+            <img src="https://raw.githubusercontent.com/Shozon-Roy/ScriptStore/refs/heads/main/topv2-17-Dec-2025-06-39-PM-8046.jpg" alt="Free Fire Image 1">
+            <img src="https://raw.githubusercontent.com/Shozon-Roy/ScriptStore/refs/heads/main/topv2-17-Dec-2025-06-32-PM-7753.jpg" alt="Free Fire Image 3">
+            <img src="https://raw.githubusercontent.com/Shozon-Roy/ScriptStore/refs/heads/main/topv2-17-Dec-2025-06-36-PM-5976.jpg" alt="Free Fire Image 2">
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Contact Admin Button -->
+        <div class="cta-container">
+            <a href="https://t.me/shozonroy2" target="_blank" class="cta-button">Contact Admin</a>
+            <a href="https://t.me/devXshozon" target="_blank" class="cta-button">Contact Admin</a>
+        </div>
+
+        <h1>ফ্রি ফায়ার ডায়মন্ড টপআপ: ওয়েবসাইট এবং অ্যাডমিনের কাজ পদ্ধতি</h1>
+        
+        <p>অনলাইনে ফ্রি ফায়ার ডায়মন্ড টপআপ করা এখন খুবই সহজ। কিন্তু ওয়েবসাইটগুলো আসলে কিভাবে কাজ করে? আপনার টাকা নিয়ে অ্যাডমিন কিভাবে আপনার একাউন্টে ডায়মন্ড পাঠায়? আজকের পোস্টে আমরা সবকিছু ধাপে ধাপে বিস্তারিত জানবো।</p>
+
+        <h2>ভাগ ১: ফ্রি ফায়ার টপআপ ওয়েবসাইট কিভাবে কাজ করে? (গ্রাহকের জন্য)</h2>
+        <p>একজন গ্রাহকের কাছ থেকে ওয়েবসাইটে টপআপ সম্পন্ন হওয়া পর্যন্ত যে ধাপগুলো অনুসরণ করতে হয়:</p>
+        
+        <h3>ধাপ ১: ওয়েবসাইটে যাওয়া</h3>
+        <p>গ্রাহক প্রথমে যে টপআপ ওয়েবসাইট থেকে ডায়মন্ড কিনতে চান, সেই ওয়েবসাইটে প্রবেশ করেন।</p>
+
+        <h3>ধাপ ২: তথ্য দেওয়া</h3>
+        <p>ওয়েবসাইটে থাকা একটি ফর্ম পূরণ করতে হয়। এই ফর্মে সাধারণত তিনটি তথ্য দিতে হয়:</p>
+        <ul>
+            <li><strong>ফ্রি ফায়ার ID:</strong> গ্রাহকের গেম আইডি।</li>
+            <li><strong>সার্ভার:</strong> বাংলাদেশ সার্ভার নাকি অন্য কোনো সার্ভার।</li>
+            <li><strong>ডায়মন্ডের পরিমাণ:</strong> কত ডায়মন্ড কিনতে চান, সেটি বেছে নিতে হয় (যেমন: ১০০ ডায়মন্ড, ৩১০ ডায়মন্ড, ৫২০ ডায়মন্ড ইত্যাদি)।</li>
+        </ul>
+
+        <h3>ধাপ ৩: পেমেন্ট করা</h3>
+        <p>ডায়মন্ডের পরিমাণ বেছে নেওয়ার পর, গ্রাহককে পেমেন্ট করতে হয়। বাংলাদেশের ওয়েবসাইটগুলোতে সাধারণত বিকাশ, নগদ, রকেট, অথবা কার্ডের মাধ্যমে পেমেন্টের ব্যবস্থা থাকে।</p>
+
+        <h3>ধাপ ৪: অর্ডার সম্পন্ন হওয়া</h3>
+        <p>পেমেন্ট সফলভাবে সম্পন্ন হলে, গ্রাহকের অর্ডারটি ওয়েবসাইটের সিস্টেমে চলে যায় এবং অ্যাডমিনকে একটি নোটিফিকেশন পাঠানো হয়। এরপর অ্যাডমিন টপআপ সম্পন্ন করেন।</p>
+
+        <h2>ভাগ ২: একজন অ্যাডমিন কিভাবে ডায়মন্ড টপআপ করেন?</h2>
+        <p>গ্রাহকের অর্ডার ও পেমেন্ট পাওয়ার পর একজন অ্যাডমিনের কাজ শুরু হয়। তিনি মূলত নিচের ধাপগুলো অনুসরণ করেন:</p>
+
+        <h3>ধাপ ১: অর্ডার রিভিউ করা</h3>
+        <p>অ্যাডমিন তার ওয়েবসাইটের ড্যাশবোর্ডে লগ ইন করে নতুন অর্ডারটি দেখেন। তিনি গ্রাহকের দেওয়া <strong>ফ্রি ফায়ার ID</strong> এবং <strong>ডায়মন্ডের পরিমাণ</strong> আবার চেক করেন যেন কোনো ভুল না হয়।</p>
+
+        <h3>ধাপ ২: ডায়মন্ড কেনার উৎস (মূল কাজ)</h3>
+        <p>অ্যাডমিন সাধারণত দুইভাবে ডায়মন্ড সরবরাহ করেন:</p>
+        <ul>
+            <li><strong>ক. রিসেলার প্যানেল (Reseller Panel):</strong> এটাই সবচেয়ে সাধারণ পদ্ধতি। অ্যাডমিন নিজে কোনো বড় ডিস্ট্রিবিউটর বা রিসেলার প্যানেল (যেমন: CodaShop, Razer Gold, বা অন্য কোনো স্থানীয় সাপ্লায়ার) থেকে একটি অ্যাকাউন্ট খোলেন। সেই প্যানেল থেকে তিনি কম দামে ডায়মন্ড কিনতে পারেন। অ্যাডমিন গ্রাহকের কাছ থেকে যে টাকা পেয়েছেন, সেই টাকা দিয়ে রিসেলার প্যানেল থেকে ডায়মন্ড কিনেন এবং গ্রাহকের ID-তে সেন্ড করে দেন। এতে তার একটা লাভ থাকে।</li>
+            <li><strong>খ. অফিসিয়াল গেম টপআপ (Official Game Top-up):</strong> অ্যাডমিন ফ্রি ফায়ারের অফিসিয়াল ওয়েবসাইটে গিয়েও ডায়মন্ড কিনতে পারেন। তিনি গ্রাহকের ID দিয়ে ডায়মন্ড অর্ডার করেন এবং নিজের ক্রেডিট/ডেবিট কার্ড বা অন্য পেমেন্ট মেথড দিয়ে পেমেন্ট সম্পন্ন করেন। এই পদ্ধতিতে লাভ কম হয়, তাই অনেকেই এটা ব্যবহার করেন না।</li>
+        </ul>
+
+        <h3>ধাপ ৩: টপআপ সম্পন্ন করা</h3>
+        <p>উপরের যেকোনো একটি পদ্ধতি ব্যবহার করে অ্যাডমিন গ্রাহকের ID-তে ডায়মন্ড পাঠিয়ে দেন। সাধারণত ডায়মন্ড কয়েক মিনিটের মধ্যেই গ্রাহকের অ্যাকাউন্টে চলে আসে।</p>
+
+        <h3>ধাপ ৪: অর্ডার আপডেট করা</h3>
+        <p>ডায়মন্ড সফলভাবে পাঠানোর পর, অ্যাডমিন তার ওয়েবসাইটের ড্যাশবোর্ডে গিয়ে অর্ডারটিকে <strong>"Complete"</strong> বা <strong>"Delivered"</strong> হিসেবে মার্ক করে দেন।</p>
+
+        <h3>ধাপ ৫: গ্রাহককে জানানো</h3>
+        <p>অ্যাডমিন অর্ডার "Complete" করার সাথে সাথে ওয়েবসাইটের সিস্টেম স্বয়ংক্রিয়ভাবে গ্রাহকের ইমেল বা নম্বরে একটি মেসেজ পাঠায় যে, "আপনার ডায়মন্ড টপআপ সফলভাবে সম্পন্ন হয়েছে।"</p>
+        
+        <div class="conclusion-box">
+            <h3>সহজ কথায়:</h3>
+            <p>মনে করো তুমি একটি দোকানে গেলে। তুমি তোমার পছন্দের পণ্যটি (ডায়মন্ড) বাছাই করলে, দোকানদারকে (অ্যাডমিন) তোমার ঠিকানা (ফ্রি ফায়ার ID) দিলে এবং টাকা পরিশোধ করলে। দোকানদার তার গুদাম থেকে (রিসেলার প্যানেল) পণ্যটি এনে তোমার ঠিকানায় পৌঁছে দিলেন। টপআপ ওয়েবসাইটও ঠিক এভাবেই কাজ করে। তবে এখানে "ঠিকানা" হলো তোমার ফ্রি ফায়ার ID এবং "পণ্য" হলো ভার্চুয়াল ডায়মন্ড।</p>
+        </div>
+    </div>
+
+</body>
+</html>
