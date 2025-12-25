@@ -55,7 +55,7 @@ For inquiries, purchases, or support, please reach out to:
 - Unlimited Category System
 - Full Control From Admin Panel
 
-[View Demo](https://t.me/shozonroy) | [Buy Script Now](https://t.me/shozonroy)
+[View Demo](https://t.me/shozonroy2) | [Buy Script Now](https://t.me/shozonroy2)
 
 ---
 
@@ -94,7 +94,7 @@ For inquiries, purchases, or support, please reach out to:
 - বিকাশ তথ্য / নগদ তথ্য / রকেট তথ্য (bKash/Nagad/Rocket Information)
 - আইএমইআই থেকে সক্রিয় নাম্বার (Active Number from IMEI)
 
-[View Demo](https://t.me/shozonroy) | [Buy Script Now](https://t.me/shozonroy)
+[View Demo](https://t.me/shozonroy2) | [Buy Script Now](https://t.me/shozonroy2)
 
 ---
 
